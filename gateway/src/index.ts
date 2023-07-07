@@ -4,7 +4,7 @@ import { ethers } from 'ethers';
 import { hash, number } from "starknet";
 import IStarknetResolver from './IStarknetResolverService.json'
 import StarknetoreContract from './StarknetCoreContract.json'
-import { StarknetCompositeStateProof, getStarknetProof } from 'pathfinder_getproof_lib';
+import { StarknetCompositeStateProof, getStarknetProof } from 'starknet_getProof_lib';
 
 const PATHFINDER_RPC_URL = 'https://pathfinder-goerli.nethermind.io/rpc/v0.2';
 const CORE_CONTRACT_ADDRESS = '0xde29d060D45901Fb19ED6C6e959EB22d8626708e'

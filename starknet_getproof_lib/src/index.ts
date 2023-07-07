@@ -135,7 +135,7 @@ export async function getStarknetProofJson(rpc_url: string, contractAddress: Big
       [storageVarAddress]
     ];
 
-    const result = await jsonRpcCall(rpc_url, "pathfinder_getProof", args);
+    const result = await jsonRpcCall(rpc_url, "starknet_getProof", args);
     return result;
   }
   catch (error) {
@@ -154,7 +154,7 @@ export async function getStarknetProof(rpc_url: string, contractAddress: BigNumb
       [storageVarAddress]
     ];
 
-    const result = await jsonRpcCall(rpc_url, "pathfinder_getProof", args);
+    const result = await jsonRpcCall(rpc_url, "starknet_getProof", args);
     return parseStarknetProof(result, contractAddress, storageVarAddress, starknetCommittedBlockNumber);
   }
   catch (error) {

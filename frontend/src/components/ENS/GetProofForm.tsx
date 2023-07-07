@@ -25,7 +25,7 @@ import { InjectedConnector } from "wagmi/connectors/injected";
 import { EnsProofCardState, EnsProofCardStateKeys } from "./EnsProofCard";
 import { CheckCircleIcon } from "@chakra-ui/icons";
 import { PATHFINDER_RPC_URL, STARKNET_CORE_CONTRACT_ADDRESS } from "../../constants";
-import { getStarknetProofJson } from "pathfinder_getproof_lib";
+import { getStarknetProofJson } from "starknet_getProof_lib";
 
 interface Props {
   state: EnsProofCardState;
@@ -384,7 +384,7 @@ const GetProofForm: React.FC<Props> = ({
           disabled={isLoading}
           onClick={handleSubmit}
         >
-          {isLoading ? <Spinner /> : "Call pathfinder_getProof"}
+          {isLoading ? <Spinner /> : "Call starknet_getProof"}
         </Button>
       </Box>
     </Flex>

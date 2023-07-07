@@ -1,6 +1,6 @@
 
 // The URL of the JSON-RPC server
-const RPC_URL = 'https://pathfinder-goerli.nethermind.io/rpc/v0.2';
+const RPC_URL = 'https://testnet.pragmaoracle.com/rpc';
 
 // The JSON-RPC version
 const JSON_RPC_VERSION = '2.0';

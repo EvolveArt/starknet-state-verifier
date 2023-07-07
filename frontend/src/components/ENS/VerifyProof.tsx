@@ -22,7 +22,7 @@ import { Spinner } from "@chakra-ui/react";
 import { EnsProofCardState } from "./EnsProofCard";
 import { L1_EXPLORER_BASE_URL, L2_EXPLORER_BASE_URL, L1_RESOLVER_VERIFIER_ADDRESS } from "../../constants";
 import { ArrowDownIcon } from "@chakra-ui/icons";
-import { StarknetContractData, StarknetCompositeStateProof, StarknetProof, parseStarknetProof } from "pathfinder_getproof_lib";
+import { StarknetContractData, StarknetCompositeStateProof, StarknetProof, parseStarknetProof } from "starknet_getProof_lib";
 
 interface Props {
   state: EnsProofCardState;

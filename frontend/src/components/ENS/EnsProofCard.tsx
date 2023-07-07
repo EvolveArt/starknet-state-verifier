@@ -8,7 +8,7 @@ import GetProofForm from "./GetProofForm";
 import { L2_RESOLVER_ADDRESS, PATHFINDER_RPC_URL } from "../../constants";
 
 const getProofMethod = {
-  "name": "pathfinder_getProof",
+  "name": "starknet_getProof",
   "params": [
     {
       "name": "contract_address",

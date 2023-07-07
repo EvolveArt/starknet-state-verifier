@@ -5,7 +5,7 @@ import path from "path";
 import { PedersenHash } from "../typechain";
 import { BigNumber, BigNumberish } from "ethers/utils";
 import { SignerWithAddress } from "@nomiclabs/hardhat-ethers/signers";
-import { parseStarknetProof, StarknetProof, StarknetCompositeStateProof, BinaryProof, EdgeProof } from 'pathfinder_getproof_lib'
+import { parseStarknetProof, StarknetProof, StarknetCompositeStateProof, BinaryProof, EdgeProof } from 'starknet_getProof_lib'
 
 
 const deployTables = async () => {

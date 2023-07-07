@@ -25,7 +25,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "pathfinder_getproof_lib",
+  "name": "starknet_getProof_lib",
   "author": "fawad haider",
   "devDependencies": {
     "@types/node": "^16.3.3",
